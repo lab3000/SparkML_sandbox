@@ -1,0 +1,20 @@
+17/06/19 17:39:05 INFO TaskSetManager: Finished task 1.0 in stage 28.0 (TID 45) in 21 ms on localhost (executor driver) (2/3)
+17/06/19 17:39:05 INFO TaskSetManager: Finished task 2.0 in stage 28.0 (TID 46) in 16 ms on localhost (executor driver) (3/3)
+17/06/19 17:39:05 INFO TaskSchedulerImpl: Removed TaskSet 28.0, whose tasks have all completed, from pool
+17/06/19 17:39:05 INFO DAGScheduler: ResultStage 28 (aggregate at AreaUnderCurve.scala:45) finished in 0.022 s
+17/06/19 17:39:05 INFO DAGScheduler: Job 14 finished: aggregate at AreaUnderCurve.scala:45, took 0.030981 s
+17/06/19 17:39:05 INFO MapPartitionsRDD: Removing RDD 55 from persistence list
+17/06/19 17:39:05 INFO BlockManager: Removing RDD 55
+auc = 0.5416666666666666
+17/06/19 17:39:05 INFO SparkContext: Invoking stop() from shutdown hook
+17/06/19 17:39:05 INFO SparkUI: Stopped Spark web UI at http://localhost:4040
+17/06/19 17:39:05 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/06/19 17:39:05 INFO MemoryStore: MemoryStore cleared
+17/06/19 17:39:05 INFO BlockManager: BlockManager stopped
+17/06/19 17:39:05 INFO BlockManagerMaster: BlockManagerMaster stopped
+17/06/19 17:39:05 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/06/19 17:39:05 INFO SparkContext: Successfully stopped SparkContext
+17/06/19 17:39:05 INFO ShutdownHookManager: Shutdown hook called
+17/06/19 17:39:05 INFO ShutdownHookManager: Deleting directory /private/var/folders/kb/kpndzrxn3_5fmplr90_cyy3h0000gn/T/spark-e88b2809-3a42-4247-9789-100a1198b51f
+
+Process finished with exit code 0
